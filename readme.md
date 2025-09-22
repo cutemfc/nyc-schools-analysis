@@ -14,6 +14,8 @@ It integrates work on:
 
 The goal is to produce high-quality and cleaned datasets and insightful analytics to understand school performance, demographics, and safety across NYC boroughs.
 
+
+
 ---
 
 ## 📍 Projects Structure
@@ -43,6 +45,9 @@ Remove outliers (usingf IQR methods , SAT between 200-800)
 Converted the % (graduate and attentation rates) to numeric
 
 Remove unrelated column and duplicate typo column 
+
+## Result
+<img width="1558" height="482" alt="Screenshot 2025-09-22 at 17 02 10" src="https://github.com/user-attachments/assets/fc7534ef-9cbf-46af-b6d4-5bcd06284669" />
 
 
 > ## 🧰 2 Brooklyn School Data Analysis
