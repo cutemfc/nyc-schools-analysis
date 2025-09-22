@@ -3,9 +3,13 @@
 ## Goal: This repository is collected of projects focused on analyzing and cleaning datasets from the New York City public school system. 
 
 It integrates work on:
+
 1.SAT REsults Cleaning and Outlier Removal
+
 2.Brooklyn School Data Analysis
+
 3.NYC School Incidients Analysis
+
 4.General NYC Schools Demographics and Performance Analysis
 
 The goal is to produce high-quality and cleaned datasets and insightful analytics to understand school performance, demographics, and safety across NYC boroughs.
@@ -13,15 +17,21 @@ The goal is to produce high-quality and cleaned datasets and insightful analytic
 ---
 
 ## 📍 Projects Structure
---data
---notebook
---Python scripts
--- Outputs
---requirements:python dependencies
+-data
+
+-notebook
+
+-Python scripts
+
+-Outputs
+
+-requirements:python dependencies
+
 
 ### 📊 Datasets & Data Cleaning Day 
-Source: NYPC public High Schools SAT <scores Dataset
-## Cleaning Steps: 
+Source: NYPC public High Schools SAT Scores Dataset
+
+## 🧰 1 Cleaning Steps: 
 Renamed columns to make consistant
 
 Numeric values of columns
@@ -32,39 +42,70 @@ Remove outliers (usingf IQR methods , SAT between 200-800)
 
 Converted the % (graduate and attentation rates) to numeric
 
+Remove unrelated column and duplicate typo column 
+
+
+> ## 🧰 2 Brooklyn School Data Analysis
+### Objective: 
+Analyze Brooklyn high schools for performance and enrollment trends
+
+### Key Steps:
+Filtered dataset for **Brooklyn school only**
+
+Normalized column names
+
+Counted Unique schools and **Grade 9 entry  offerings**
+
+Summarized **average student count borough**
+
+Created **bar chars** showing school distribution by borough
+
+### Insight:
+Brooklyn has the highest number schools
+
+A large portion of Brooklyn schools offer 9 Grade entry
+
+Enrollment varies significantly between boroughs
+
+<img width="704" height="470" alt="image" src="https://github.com/user-attachments/assets/87cc69a5-5569-4715-b0a4-312ba68b2710" />
+
 
 
 ---
 
-> 🧰 Brooklyn School Data Analysis
-Objective: Analyze Brooklyn high schools for performance and enrollment trends
+### 🗃️ 3 NYC School incidients Analysis
+### Objects:
+Understand incident patterns in NYC schools
 
+
+### Data Cleaning:
+Standardize column names(lowerase, underscores, no special characters)
+Used Google Sheets quick cleaning
+
+Analysis performed: 
+Count total and unique schools.
+Found the most freques incidient incident type
+calculate the % of incidents in the Bronx
+created pivot tables and charts for borough level distribution.
+
+### Insight
+Bronx showed higer incident rates compared to its number of schools.Some school reported zero incidients-possible underreporting. Certain years had spikes in specific incidient types.
 ---
 
-### 🗃️ Day 3 – SQL + Python Exploration
-Connect to the PostgreSQL training DB and explore it with SQL inside Python notebooks.  
-Answer analytical questions using real queries and joins.
-
-> 🧰 Skills: `psycopg2` / `sqlalchemy`, `pandas.read_sql`, JOINs, filtering, logic in SQL
-
----
-
-### 🧮 Day 4 – Data Integration & Schema Design
-Integrate a new dataset into the existing PostgreSQL schema.  
-Identify keys, clean/prep with Python, and write a script to append it to the database.
+###  4 General NYC Schools Demographics and Performance Analysis
+Integration & Schema Design
+ 
+General NYC schools Analysis (PostgreSQL+ Python) Focus: Demographic and performance queries
 
 > 🧰 Skills: Data modeling, ETL scripting, foreign key relationships, INSERTs via Python
+> 
+> ### Key Analysis
+> Count schools by borough
+> Joined datasets on dbn to merge demographics with performance
 
 ---
-### 🚀 Day 5 – Project Wrap-up & GitHub Deployment
-Finalize your project by integrating all components from Days 1-4 into a cohesive whole. Prepare your codebase for public sharing, ensuring all scripts are well-documented and your repository is structured professionally. Push your complete project to your personal GitHub, ready to showcase your new skills!
+### How to run
+Clone the repository git clone[
+(https://github.com/yourusername/nyc-schools-analysis.git)] cd nyc-schools-analysis
 
-🧰 Skills: Project management, code organization, Git & GitHub, documentation, data storytelling
-
----
-We’re here to help — ask questions during the daily masterclass or on Slack!
-
----
-
-Let’s build something great. 💪
-
+Setup the environment based on requirements
