@@ -1,31 +1,43 @@
-# 🗓️ 5-Day Data Analyst Onboarding Overview
+# 🗓️ NYC Schools Data Analysis and Cleaning Project
 
-Welcome to your 5-day onboarding sprint! This program is designed to introduce you to our real-world data stack and workflows. Each day you'll tackle a focused, hands-on challenge that simulates core parts of our pipeline—from raw data ingestion to analysis and integration.
+## Goal: This repository is collected of projects focused on analyzing and cleaning datasets from the New York City public school system. 
 
-In every `daily_tasks/day_X/` folder, you'll find:
-- 🔗 A link to the task's GitHub Issue (in the README or markdown files)
-- 📂 All necessary datasets, database connection details, and starter materials
+It integrates work on:
+1.SAT REsults Cleaning and Outlier Removal
+2.Brooklyn School Data Analysis
+3.NYC School Incidients Analysis
+4.General NYC Schools Demographics and Performance Analysis
 
-+ 🧑‍🏫 You'll get guided explanations and walkthroughs by a team lead during the morning masterclass.
-
----
-
-## 📍 What to Expect Each Day
-
-### 📊 Day 1 – Onboarding & Setup + Data Exploration & Submission
-Get access to the GitHub repository and Slack. Meet the team. 
-Start with a small dataset. Explore it using Google Sheets.  
-You’ll answer simple analytical questions and share your work.
-
-> 🧰 Skills: Data loading, quick exploration, Google Sheets, basic markdown submission
+The goal is to produce high-quality and cleaned datasets and insightful analytics to understand school performance, demographics, and safety across NYC boroughs.
 
 ---
 
-### 🧹 Day 2 – Data Cleaning & Preparation with Python
-Work with messy data. You’ll clean, transform, and prepare a dataset for analysis.  
-Handle duplicates, missing values, naming conventions, and outliers.
+## 📍 Projects Structure
+--data
+--notebook
+--Python scripts
+-- Outputs
+--requirements:python dependencies
 
-> 🧰 Skills: pandas, data types, cleaning strategies, CSV export
+### 📊 Datasets & Data Cleaning Day 
+Source: NYPC public High Schools SAT <scores Dataset
+## Cleaning Steps: 
+Renamed columns to make consistant
+
+Numeric values of columns
+
+Remove the duplicate rows
+
+Remove outliers (usingf IQR methods , SAT between 200-800) 
+
+Converted the % (graduate and attentation rates) to numeric
+
+
+
+---
+
+> 🧰 Brooklyn School Data Analysis
+Objective: Analyze Brooklyn high schools for performance and enrollment trends
 
 ---
 
