@@ -4,7 +4,7 @@
 
 It integrates work on:
 
-1.SAT REsults Cleaning and Outlier Removal
+1.SAT Results Cleaning and Outlier Removal
 
 2.Brooklyn School Data Analysis
 
@@ -27,7 +27,8 @@ The goal is to produce high-quality and cleaned datasets and insightful analytic
 
 -Outputs
 
--requirements:python dependencies
+-requirements:
+python dependencies
 
 
 ### 📊 Datasets & Data Cleaning Day 
@@ -40,7 +41,7 @@ Numeric values of columns
 
 Remove the duplicate rows
 
-Remove outliers (usingf IQR methods , SAT between 200-800) 
+Remove outliers (using IQR methods , SAT between 200-800) 
 
 Converted the % (graduate and attentation rates) to numeric
 
@@ -93,16 +94,17 @@ Found the most freques incidient incident type
 calculate the % of incidents in the Bronx
 created pivot tables and charts for borough level distribution.
 
-### Insight
-Bronx showed higer incident rates compared to its number of schools.Some school reported zero incidients-possible underreporting. Certain years had spikes in specific incidient types.
----
+### Insight: 
 
-###  4 General NYC Schools Demographics and Performance Analysis
+Bronx showed higer incident rates compared to its number of schools.Some school reported zero incidients-possible underreporting. Certain years had spikes in specific incidient types.
+
+
+### 🗃️ 4 General NYC Schools Demographics and Performance Analysis
 Integration & Schema Design
  
 General NYC schools Analysis (PostgreSQL+ Python) Focus: Demographic and performance queries
 
-> 🧰 Skills: Data modeling, ETL scripting, foreign key relationships, INSERTs via Python
+Skills: Data modeling, ETL scripting, foreign key relationships, INSERTs via Python
 > 
 > ### Key Analysis
 > Count schools by borough
