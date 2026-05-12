@@ -110,7 +110,22 @@ Skills: Data modeling, ETL scripting, foreign key relationships, INSERTs via Pyt
 > Count schools by borough
 > Joined datasets on dbn to merge demographics with performance
 
----
+
+## Data Engineering Pipeline (ETL)
+
+This project implements a robust **ETL (Extract, Transform, Load)** pipeline using Python and Pandas to analyze New York City school data. 
+
+### 1. Extract
+* **Source Aggregation:** Automatically retrieves heterogeneous datasets from fragmented directory structures (`school_directory_exploration`, `incident_analysis`, and `data_population`).
+* **Path Resolution:** Implements a dynamic file-mapping system to handle diverse naming conventions and directory depths.
+
+### 2. Transform (Quality Control)
+* **Data Cleaning:** Standardizes numeric types and implements automated imputation (mean substitution) for missing values.
+* **Feature Engineering:** Calculates derivative metrics such as `total_SAT` scores to facilitate downstream analysis.
+* **Standardization:** Normalizes primary keys (e.g., `DBN`) to ensure relational interoperability across tables.
+
+### 3. Load
+* **Analysis-Ready State:** Consolidates processed data into a unified Python dictionary structure, prepared for high-fidelity statistical modeling or database ingestion.---
 ### How to run
 Clone the repository git clone[
 (https://github.com/yourusername/nyc-schools-analysis.git)] cd nyc-schools-analysis
