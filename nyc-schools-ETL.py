@@ -83,3 +83,13 @@ for name, df in processed_data.items():
             print("- QC Check: 'DBN' standardized to uppercase.")
         else:
             print("- QC Check: FAILED. 'DBN' column missing or lowercase.")
+            
+    # --- NEW CHECK AT THE BOTTOM ---
+if 'sat_results' in processed_data:
+    print("\n--- Visual Data Verification ---")
+    # This shows the first 5 rows of specific columns
+    print(processed_data['sat_results'][['DBN', 'SAT Math Avg. Score', 'total_SAT']].head())
+else:
+    print("Error: sat_results not found in processed data.")           
+     
+   
