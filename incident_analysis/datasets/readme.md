@@ -21,7 +21,7 @@ Details about changes made to the dataset structure or naming over time (if appl
 📌 Use this file as a reference when exploring, cleaning, or uploading the dataset into a database.  
 It ensures you understand each field and how it contributes to the larger data structure.
 
-### 📂 About the `school-safety-repor.csv` file
+### 📂 About the `school-safety-report.csv` file
 
 The file `school-safety-report.csv` contains detailed safety report data for various schools across different school years. This dataset can be used to analyze safety trends, compare incident rates between schools, and investigate the geographic distribution of incidents.
 
