@@ -12,6 +12,8 @@ It integrates work on:
 
 4.General NYC Schools Demographics and Performance Analysis
 
+5.Developed automated transformation workflows for outlier removal, demographic profiling, and incident analysis to ensure data integrity and research-ready quality.
+
 The goal is to produce high-quality and cleaned datasets and insightful analytics to understand school performance, demographics, and safety across NYC boroughs.
 
 
