@@ -1,6 +1,6 @@
 # 🗓️ NYC Schools Data Analysis and Cleaning Project
 
-## Goal: This repository is collected of projects focused on analyzing and cleaning datasets from the New York City public school system. 
+## Goal: This repository features an automated ETL pipeline designed to integrate, clean, and standardize fragmented datasets from the New York City public school system for high-fidelity analysis.
 
 It integrates work on:
 
